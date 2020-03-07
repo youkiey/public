@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="sacCer3" hasGeneTrack="true" hasSequenceTrack="true" locus="chrXVI:1-35806" path="B:\其他成员\ZHS\GSE72972_RAW\CONTROL T11 Pyk1 Ser33 Tracks.xml" version="8">
+    <Resources>
+        <Resource path="B:\其他成员\ZHS\GSE72972_RAW\ser33.bw"/>
+        <Resource path="B:\其他成员\ZHS\H3T11   bam 文件\H3T11_1P.bw"/>
+        <Resource path="B:\其他成员\ZHS\GSE72972_RAW\wt_ip.bw"/>
+        <Resource path="B:\其他成员\ZHS\GSE72972_RAW\GSM1876059_s_1pyk1_ip.log2rat.smoothed.101.bw"/>
+    </Resources>
+    <Panel height="519" name="DataPanel" width="1061">
+        <Track clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" colorScale="ContinuousColorScale;0.0;13.0;255,255,255;0,0,178" fontSize="15" height="35" id="sacCer3_genes" name="Gene" visible="true"/>
+        <Track autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,102,51" fontSize="20" height="120" id="B:\其他成员\ZHS\GSE72972_RAW\wt_ip.bw" name="wt_ip.bw" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,204" fontSize="20" height="105" id="B:\其他成员\ZHS\H3T11   bam 文件\H3T11_1P.bw" name="H3pT11 ChIP" renderer="BAR_CHART" visible="true" windowFunction="none">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="2.5" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="255,153,51" fontSize="20" height="105" id="B:\其他成员\ZHS\GSE72972_RAW\GSM1876059_s_1pyk1_ip.log2rat.smoothed.101.bw" name="Pyk1 ChIP" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track autoScale="false" clazz="org.broad.igv.track.DataSourceTrack" color="153,0,153" fontSize="20" height="105" id="B:\其他成员\ZHS\GSE72972_RAW\ser33.bw" name="Ser33 ChIP" renderer="BAR_CHART" visible="true" windowFunction="mean">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="1.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+    </Panel>
+    <Panel height="30" name="FeaturePanel" width="1061">
+        <Track clazz="org.broad.igv.track.SequenceTrack" fontSize="20" id="Reference sequence" name="Reference sequence" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.9370503597122302"/>
+</Session>
